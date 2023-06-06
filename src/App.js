@@ -7,15 +7,17 @@ import configureStore from './redux/configureStore';
 
 const store = configureStore();
 
-function App = () => (
-  <Provider store={store}>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Greeting />} />
-        <Route path="/hello" element={<h1>Hello Path</h1>} />
-      </Routes>
-    </BrowserRouter>
-  </Provider>
-);
+function App() {
+  return (
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Greeting />} />
+          <Route path="/hello" element={<h1>Hello Path</h1>} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
+  );
+}
 
 export default App;

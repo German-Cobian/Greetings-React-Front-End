@@ -5,7 +5,6 @@ export const fetchGreeting = () => async (dispatch) => {
     const response = await fetch('http://localhost:3001/api/greetings');
     const greeting = await response.json();
     if (response.ok) {
-      console.log(response);
       dispatch({ type: UPDATE_GREETING, payload: greeting });
     }
   } catch (error) {

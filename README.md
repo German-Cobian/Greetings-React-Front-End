@@ -18,7 +18,6 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -121,15 +120,6 @@ In order for this project to work you need to also be running the backendend ser
   rails s
 ```
 Visit `http://localhost:3000/` in your browser to get into the app.
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  rspec
-```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 

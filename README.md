@@ -28,11 +28,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Greetings-React-Front-End] <a name="about-project"></a>
 
-> The React-Redux front_end of an app that displays a random greeting when the user clicks on a button labeled: "Get another greeting". The database is seeded with 5 different greetings which display on the browser, one at a time. Upon loading the greetings page the user will find one out of those 5 greetings randomly displayed. The user can then click the button to see another greeting randomly display.
-
-**[your_project__name]** is a...
+**[Greetings-React-Front-End]** is an app that displays a random greeting when the user clicks on a button labeled: "Get another greeting". The database is seeded with 5 different greetings which display on the browser, one at a time. Upon loading the greetings page the user will find one out of those 5 greetings randomly displayed. The user can then click the button to see another greeting randomly display.
 
 ## 🛠 Built With <a name="built-with"></a>
 
